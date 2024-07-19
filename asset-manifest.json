@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.d6af7e76.css",
+    "main.js": "/my-portfolio/static/js/main.33739e62.js",
+    "static/js/453.ed3810f9.chunk.js": "/my-portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/NxtWatch_YoutubeClone.png": "/my-portfolio/static/media/NxtWatch_YoutubeClone.4b6f746d2a61a1dabda9.png",
+    "static/media/MatchGameApp.png": "/my-portfolio/static/media/MatchGameApp.ee2571b9f430b2e77830.png",
+    "static/media/MemeGeneratorApp.png": "/my-portfolio/static/media/MemeGeneratorApp.a732883eb8282ab2393e.png",
+    "static/media/Nxttrendz_ShoppingWebsite.png": "/my-portfolio/static/media/Nxttrendz_ShoppingWebsite.ef16e3be70efa09f0d85.png",
+    "static/media/JobbyApp.png": "/my-portfolio/static/media/JobbyApp.eb60fc2aed5f77bf2c90.png",
+    "static/media/MoneyManagerApp.png": "/my-portfolio/static/media/MoneyManagerApp.a956b22ede79079a8e62.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.d6af7e76.css.map": "/my-portfolio/static/css/main.d6af7e76.css.map",
+    "main.33739e62.js.map": "/my-portfolio/static/js/main.33739e62.js.map",
+    "453.ed3810f9.chunk.js.map": "/my-portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6af7e76.css",
+    "static/js/main.33739e62.js"
+  ]
+}
