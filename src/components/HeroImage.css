@@ -1,0 +1,81 @@
+.mask {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* Ensure no content spills out */
+  }
+  
+  .intro-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+  }
+  
+  .mask::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.7;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 1rem; /* Added padding for better spacing */
+  }
+  
+  .hero .content p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 1.2rem 0; /* Adjusted margin for better spacing */
+    color: #fff; /* Ensure text is clearly visible */
+  }
+  
+  .content .btn {
+    margin: 1rem 0.2rem;
+    padding: 0.75rem 1.5rem; /* Ensure buttons are easy to tap */
+    font-size: 1rem; /* Ensure button text is readable */
+    border-radius: 4px; /* Added border-radius for better aesthetics */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero .content p {
+      font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .content .btn {
+      padding: 0.7rem 1.4rem; /* Adjusted button padding for smaller screens */
+      font-size: 0.9rem; /* Adjusted button font size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .hero .content p {
+      font-size: 1rem; /* Further adjusted font size for very small screens */
+      margin: 1rem 0; /* Adjusted margin for better spacing */
+    }
+  
+    .content .btn {
+      padding: 0.6rem 1.2rem; /* Further adjusted button padding for very small screens */
+      font-size: 0.8rem; /* Further adjusted button font size for very small screens */
+    }
+  }
+  

@@ -1,0 +1,87 @@
+.projects-heading {
+    text-align: center;
+    padding: 4rem 1rem 2rem 1rem; /* Adjusted horizontal padding for smaller screens */
+  }
+  
+  .project-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+  }
+  
+  .project-card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    border-radius: 8px; /* Added border-radius for better aesthetics */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow effect on hover */
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 8px; /* Added border-radius to match card aesthetics */
+  }
+  
+  .project-title {
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 1.5rem; /* Adjusted font size for better visibility */
+  }
+  
+  .pro-details p {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #ccc; /* Changed text color for better readability */
+  }
+  
+  .pro-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+  }
+  
+  .pro-btns .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem; /* Adjusted font size for consistency */
+    border-radius: 4px; /* Added border-radius for better aesthetics */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 1040px) {
+    .project-container {
+      grid-template-columns: repeat(2, 1fr); /* Adjusted grid layout for medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .project-container {
+      grid-template-columns: 1fr; /* Single column layout for small screens */
+      padding: 0 1rem; /* Added horizontal padding for small screens */
+    }
+  
+    .projects-heading {
+      padding: 4rem 1rem 2rem 1rem; /* Ensure consistent padding on smaller screens */
+    }
+  
+    .project-title {
+      font-size: 1.4rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .pro-details p {
+      font-size: 1rem; /* Adjusted font size for better readability on small screens */
+    }
+  
+    .pro-btns .btn {
+      padding: 0.4rem 0.8rem; /* Adjusted padding for smaller buttons */
+      font-size: 0.9rem; /* Adjusted font size for smaller buttons */
+    }
+  }
+  
